@@ -17,7 +17,7 @@ import { FirebaseModule } from '../shared/firebase.module';
   ],
   imports: [
     CommonModule,
-    FacebookModule.forRoot(),
+    FacebookModule,
     MaterialModule,
     ReactiveFormsModule,
     FormsModule,
